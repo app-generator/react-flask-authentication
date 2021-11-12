@@ -50,7 +50,7 @@ const Login = () => {
                                                         React Flask AUTH Sample
                                                     </Typography>
                                                     <Typography variant="caption" fontSize="16px" textAlign={matchDownSM ? 'center' : ''}>
-                                                        Add your credentials 
+                                                        Default credentials: <strong>test@appseed.us / pass</strong>
                                                     </Typography>
                                                 </Stack>
                                             </Grid>

@@ -1,11 +1,12 @@
 // assets
-import { IconBrandChrome, IconHelp, IconSitemap } from '@tabler/icons';
+import { IconBrandChrome, IconHelp, IconSitemap, IconDownload } from '@tabler/icons';
 
 // constant
 const icons = {
     IconBrandChrome: IconBrandChrome,
     IconHelp: IconHelp,
-    IconSitemap: IconSitemap
+    IconSitemap: IconSitemap,
+    IconDownload: IconDownload
 };
 
 //-----------------------|| SAMPLE PAGE & DOCUMENTATION MENU ITEMS ||-----------------------//
@@ -24,10 +25,10 @@ export const other = {
         },
         {
             id: 'documentation',
-            title: 'Documentation',
+            title: 'Source Code',
             type: 'item',
-            url: 'https://docs.appseed.us/products/react/node-js-berry-dashboard',
-            icon: icons['IconHelp'],
+            url: 'https://github.com/app-generator/react-flask-authentication',
+            icon: icons['IconDownload'],
             external: true,
             target: true
         }
