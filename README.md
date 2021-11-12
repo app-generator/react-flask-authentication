@@ -1,6 +1,6 @@
 # React Flask Authentication
 
-Open-source full-stack seed project that uses a React UI powered by a simple Flask API Server. **React Flask Authentication** sample can be used to bootstrap fast a new project using a tested `development-ready` stack or simply for eLearning purposes by beginners. For newcomers, **React** is a popular Javascript library for coding user interfaces baked by Facebook and Flask is a leading web framework written in Python. 
+Open-source full-stack seed project that uses a **React UI** powered by a simple **Flask API Server**. **React Flask Authentication** sample can be used to bootstrap fast a new project using a tested `development-ready` stack or simply for eLearning purposes by beginners. For newcomers, **React** is a popular Javascript library for coding user interfaces baked by Facebook and Flask is a leading web framework written in Python. 
 
 > Links
 
@@ -17,11 +17,11 @@ Open-source full-stack seed project that uses a React UI powered by a simple Fla
 
 The product is built using a `two-tier` pattern where the React frontend is decoupled logically and physically from the API backend. In order to use the product in a local environment, a few simple steps are required: 
 
-- Compile and start the Flask API Backend
+- `Compile and start` the **Flask API Backend**
   - be default the server starts on port `5000`
-- Compile and start the React UI
+- `Compile and start` the **React UI**
   - UI will start on port `3000` and expects a running backend on port `5000`
-- Configuration (Optional)
+- `Configuration` (Optional)
   - Change the API port
   - Configure the API port used by the React UI to communicate with the backend 
 
@@ -88,7 +88,7 @@ $ # Start the API
 $ flask run 
 ```
 
----
+<br />
 
 ### Compile & start the React UI
 
