@@ -51,8 +51,8 @@ Visit `http://localhost:5000` in your browser. The app should be up & running.
 **Step #1** - Clone the project
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-flask.git
-$ cd api-server-flask
+$ git clone https://github.com/app-generator/react-flask-authentication.git
+$ cd react-flask-authentication/flask-api
 ```
 
 **Step #2** - create virtual environment using python3 and activate it (keep it outside our project directory)
@@ -90,25 +90,13 @@ $ (Powershell) $env:FLASK_APP = ".\run.py"
 $ (Powershell) $env:FLASK_ENV = "development"
 ```
 
-**Step #5** - initialize database, check `run.py` for shell context
+**Step #5** - start test APIs server at `localhost:5000`
 
-```bash
-$ flask shell
->>> from api import db
->>> db.create_all()
-```
-
-**Step #6** - start test APIs server at `localhost:5000`
-
-```bash
-$ python run.py
-```
-or 
 ```bash
 $ flask run
 ```
 
-**Step #7** - use `flask-restx`' swagger dashboard to test APIs, or use `POSTMAN`
+**Step #6** - use `flask-restx` swagger dashboard to test APIs, or use `POSTMAN`
 
 <br />
 
