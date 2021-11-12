@@ -29,7 +29,7 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 
 ## Quick-start in Docker
 
-**Step #1** - Clone project sources
+### **Step #1** - Clone project sources
 
 ```bash
 $ git clone  https://github.com/app-generator/react-flask-authentication.git
