@@ -32,9 +32,7 @@ At this point, the API should be up & running at `http://localhost:5000`, and we
 
 <br />
 
-> Start the React UI
-
-> Note: Use another terminal to start the UI: 
+> Start the React UI (use another terminal)
 
 ```bash
 $ cd react-ui
