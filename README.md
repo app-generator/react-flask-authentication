@@ -9,6 +9,45 @@ Open-source full-stack seed project that uses a `React UI` powered by a simple `
 
 <br />
 
+## Quick-start in Docker
+
+> Clone/Download the source code
+
+```bash
+$ git clone  https://github.com/app-generator/react-flask-authentication.git
+```
+
+<br />
+
+> Start the Flask API
+
+```bash
+$ cd flask-api
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up     # start the app 
+```
+
+At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
+
+<br />
+
+> Start the React UI
+
+> Note: Use another terminal to start the UI: 
+
+```bash
+$ cd react-ui
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up     # start the app 
+```
+
+Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
+After we register a new user and signIN, all the private pages become accessible. 
+
+<br />
+
 ![React Flask Authentication - Open-source full-stack seed project crafted by CodedThemes and AppSeed.](https://user-images.githubusercontent.com/51070104/137620059-07547eb2-0e7c-45e3-b825-67f5c72e4d3e.gif)
 
 <br />
@@ -24,45 +63,6 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 - `Configuration` (Optional)
   - Change the API port
   - Configure the API port used by the React UI to communicate with the backend 
-
-<br />
-
-## Quick-start in Docker
-
-### Clone/Download the source code
-
-```bash
-$ git clone  https://github.com/app-generator/react-flask-authentication.git
-```
-
-<br />
-
-### Start the Flask API
-
-```bash
-$ cd flask-api
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
-```
-
-At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
-
-<br />
-
-### Start the React UI
-
-> Note: Use another terminal to start the UI: 
-
-```bash
-$ cd react-ui
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
-```
-
-Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
-After we register a new user and signIN, all the private pages become accessible. 
 
 <br />
 
