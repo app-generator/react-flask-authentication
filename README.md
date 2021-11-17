@@ -19,7 +19,7 @@ $ git clone  https://github.com/app-generator/react-flask-authentication.git
 
 <br />
 
-> Start the Flask API
+> **Start the Flask API**
 
 ```bash
 $ cd flask-api
@@ -32,7 +32,7 @@ At this point, the API should be up & running at `http://localhost:5000`, and we
 
 <br />
 
-> Start the React UI (use another terminal)
+> **Start the React UI** (use another terminal)
 
 ```bash
 $ cd react-ui
