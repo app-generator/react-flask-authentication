@@ -207,4 +207,4 @@ authorization: JWT_TOKEN (returned by Login request)
 <br />
 
 ---
-**[React Flask Authentication](https://blog.appseed.us/react-flask-authentication/)** - Open-source full-stack seed project provided by **AppSeed [App Generator](https://appseed.us/)**
+**[React Flask Authentication](https://blog.appseed.us/react-flask-authentication/)** - Open-source full-stack seed project provided by **[AppSeed](https://appseed.us/)**
