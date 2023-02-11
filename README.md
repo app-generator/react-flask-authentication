@@ -7,36 +7,43 @@ Open-source full-stack seed project that uses a `React UI` powered by a simple `
 
 <br />
 
-## Quick-start in Docker
-
-> Clone/Download the source code
+### **Start the Flask API** via `Docker`
 
 ```bash
-$ git clone  https://github.com/app-generator/react-flask-authentication.git
-```
-
-<br />
-
-> **Start the Flask API**
-
-```bash
-$ cd flask-api
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
+$ cd api-server-flask
+$ docker-compose up --build  # Start with Docker
 ```
 
 At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
 
 <br />
 
-> **Start the React UI** (use another terminal)
+### **Start the React UI** (use another terminal)
+
+> **Step 1** - Once the project is downloaded, change the directory to `react-ui`. 
 
 ```bash
 $ cd react-ui
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
+```
+
+<br >
+
+> **Step 2** - Install dependencies via NPM or yarn
+
+```bash
+$ npm i
+// OR
+$ yarn
+```
+
+<br />
+
+> **Step 3** - Start in development mode
+
+```bash
+$ npm run start 
+// OR
+$ yarn start
 ```
 
 Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
@@ -67,7 +74,7 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 ### Start the Flask API 
 
 ```bash
-$ cd flask-api
+$ cd api-server-flask
 $ 
 $ # Create a virtual environment
 $ virtualenv env
