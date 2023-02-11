@@ -7,7 +7,7 @@ Open-source full-stack seed project that uses a `React UI` powered by a simple `
 
 <br />
 
-### **Start the Flask API** via `Docker`
+## ✨ **Start the Flask API** via `Docker`
 
 ```bash
 $ cd api-server-flask
@@ -18,9 +18,9 @@ At this point, the API should be up & running at `http://localhost:5000`, and we
 
 <br />
 
-### **Start the React UI** (use another terminal)
+## ✨ **Start the React UI** (use another terminal)
 
-> **Step 1** - Once the project is downloaded, change the directory to `react-ui`. 
+> 👉 **Step 1** - Once the project is downloaded, change the directory to `react-ui`. 
 
 ```bash
 $ cd react-ui
@@ -28,7 +28,7 @@ $ cd react-ui
 
 <br >
 
-> **Step 2** - Install dependencies via NPM or yarn
+> 👉 **Step 2** - Install dependencies via NPM or yarn
 
 ```bash
 $ npm i
@@ -38,7 +38,7 @@ $ yarn
 
 <br />
 
-> **Step 3** - Start in development mode
+> 👉 **Step 3** - Start in development mode
 
 ```bash
 $ npm run start 
@@ -55,7 +55,7 @@ After we register a new user and signIN, all the private pages become accessible
 
 <br />
 
-## General Information
+## ✨ General Information
 
 The product is built using a `two-tier` pattern where the React frontend is decoupled logically and physically from the API backend. In order to use the product in a local environment, a few simple steps are required: 
 
@@ -69,9 +69,9 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 
 <br />
 
-## Manual build
+## ✨ Manual build
 
-### Start the Flask API 
+> 👉 **Start the Flask API** 
 
 ```bash
 $ cd api-server-flask
@@ -93,7 +93,7 @@ $ flask run
 
 <br />
 
-### Compile & start the React UI
+> 👉 **Compile & start the React UI**
 
 ```bash
 $ cd react-ui
@@ -132,7 +132,7 @@ const config = {
 
 <br />
 
-## API
+## ✨ API
 
 For a fast set up, this [POSTMAN](https://docs.appseed.us/boilerplate-code/api-server/api-unified-definition) definition can be used.
 
@@ -179,7 +179,7 @@ authorization: JWT_TOKEN (returned by Login request)
 
 <br />
 
-## Product UI
+## ✨ Product UI
 
 > React Flask Authentication - Login 
 
@@ -199,7 +199,7 @@ authorization: JWT_TOKEN (returned by Login request)
 
 <br />
 
-## Links & Resources
+## ✨ Links & Resources
 
 - Ask for [Support](https://appseed.us/support) on [Discord](https://discord.gg/fZC6hup)
 - See for [React Starters](https://appseed.us/apps/react) - index provided by AppSeed
